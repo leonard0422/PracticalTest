@@ -1,6 +1,8 @@
 
 export function SetBankStorage (value) {
-  window.localStorage.setItem('DataBanks', JSON.stringify(value))
+  if (value !== undefined) {
+    window.localStorage.setItem('DataBanks', JSON.stringify(value))
+  }
 }
 
 export function GetBankStorage () {

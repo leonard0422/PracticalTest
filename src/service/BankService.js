@@ -2,11 +2,16 @@
 // const BaseUrl = 'https://dev.obtenmas.com/catom/api/challenge/banks'
 
 export default async function GetDataBank () {
-//   const response = await fetch(BaseUrl, {
-//     method: 'GET',
-//     mode: 'no-cors'
-//   })
-//   return await response.json()
+  //   const response = await fetch(BaseUrl, {
+  //     method: 'GET',
+  //     mode: 'no-cors',
+  //     headers: {
+  //       'access-control-allow-origin': '*',
+  //       'Conten-type': 'application/json'
+  //     }
+  //   })
+  //   console.log(response)
+  //   return await JSON.parse(response)
   return [
     {
       description: 'Banco Paga Todo es Para Todos',
