@@ -10,8 +10,6 @@ export default function ListGroupBank ({ age }) {
                     <div className="fw-bold">Age: {age}</div>
                 </div>
             </ListGroup.Item>
-            {/* <ItemsListGroupBank data={data} /> */}
-
         </ListGroup>
   )
 }
